@@ -108,7 +108,7 @@ class PDSAuthorization(Authorization):
 	print userinfo
 #        authenticator = OAuth2Authentication(self.scope)
 #        self.requester_uuid = authenticator.get_userinfo_from_token(token, self.scope)
-        self.trustWrapper(datastore_owner)
+#        self.trustWrapper(datastore_owner)
         
         # Result will be the uuid of the requesting party
         print self.requester_uuid
